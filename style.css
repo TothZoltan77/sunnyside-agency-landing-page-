@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+@media (min-width: 600px) {
+header {
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 90vh;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+  }
+
+header p {
+    font-size: 5rem;
+    margin-top: -12rem;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+}
+
+@media (min-width: 600px) {
+header nav {
+    gap: 55rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 15px;
+}
+ }
+
+#navbar {
+    margin-top: 3rem;
+}
+
+.nav_links li a#btn-contact {
+    border-radius: 50px;
+    color: #000000;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.nav_links li a#btn-contact:hover {
+    background: #6eceef;
+}
+
+.nav_links {
+    list-style: none;   
+}
+
+.nav_links li {
+    display:inline-block;
+    padding: 0px 60px;
+}
+
+.nav_links li a  {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Sans-Serif;
+    font-size: 20px;
+}
+
+.nav_links li a:hover  {
+    color:rgb(255, 255, 255)
+}
+
+#class  {
+    letter-spacing: 1em;
+    font-family: "Fraunces";
+    margin-bottom: 22em;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+#container {
+    display: flex;
+    width: 1900px;
+}
+
+#containertext {
+    padding: 6rem;
+    text-align: start;
+    width: 951px;  
+}
+
+#containertext h2 {
+    margin-top: 12rem;
+    font-family: "Fraunces", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 951px;  
+}
+
+#containertext p {
+    line-height: 1.6em;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(133, 133, 133);
+    width: 700px;
+    font-family: sans-serif;  
+}
+
+#containertext a {
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    text-decoration: 5px underline rgb(248, 229, 120);
+    font-family: sans-serif;
+}
+
+#container1 {
+    width: 951px;  
+}
+
+#container2 {
+    display: flex;
+}
+
+#text {
+    padding: 6rem;
+    justify-self: start;
+    text-align: start;
+    display: inline;   
+}
+
+#text h2 {
+    font-family: "Fraunces", serif;
+    font-size: 3rem;
+    margin-top: 12rem;
+}
+
+#text p {
+    line-height: 1.6em;
+    width: 700px;
+    margin-top: 2rem;
+    color: rgb(133, 133, 133);
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#text a { 
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    text-decoration: 5px underline #ffcda0;
+    font-family: sans-serif;  
+}
+
+.containerimg {
+    display: flex;
+}
+
+#containerimg1 {
+    width: 950px;
+    height: 800px;
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#containerimg2 {
+    width: 950px;
+    height: 800px;
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+#containerimg1 h2  {
+    font-family: "Fraunces", serif;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 35rem;
+    color: rgb(82, 82, 82);
+}
+
+#containerimg1 p  {
+    text-align: center;
+    width: 35rem;
+    margin-top: 1rem;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+#containerimg2 h2  {
+    font-family: "Fraunces", serif;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 35rem;
+    color: rgb(82, 82, 82);
+}
+
+#containerimg2 p  {
+    text-align: center;
+    width: 35rem;
+    margin-top: 1rem;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+#client {
+    letter-spacing: 0.2em;
+    font-weight:bold;
+    margin-top: 8rem;
+    text-align: center;
+    color: rgb(167, 167, 167);
+    font-size: 3rem;
+    font-family: "Fraunces";
+}
+
+.mainpersons {
+    line-height: 1.6em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.mainpersons p {
+    color: rgb(175, 175, 175);
+}
+
+.mainpersons1 {
+    margin-top: 8rem;
+    width: 340px;
+    justify-content: space-evenly;
+}
+
+.mainpersons1 span {
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.mainpersons2 {
+    margin-top: 8rem;
+    width: 340px;
+    justify-content: space-evenly;
+}
+
+.mainpersons2 span {
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.mainpersons3 {
+    margin-top: 8rem;
+    width: 340px;
+    justify-content: space-evenly;
+}
+
+.mainpersons3 span {
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.mainpersons img{
+    border-radius: 50%;
+}
+
+#pictlist {
+    display: flex;
+}
+
+#footer  {
+    gap: 2rem;
+    text-align: center;
+    height: 40vh;
+    background-color: #90d4CD;
+}
+
+#footer span {
+    color: #2a7161;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+#links ul {
+    margin-top: 4rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#links ul li  {
+    gap: 25px;
+    display: inline-block;  
+}
+
+#links ul li a {
+    text-decoration: none;
+    color: #2a7161;
+}
+
+.socialmedia {
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 3rem;
+    display: flex;
+}
+
+
+
+
